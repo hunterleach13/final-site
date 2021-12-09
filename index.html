@@ -72,14 +72,11 @@
       </div>
 
       <div class="col-6">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-            <div class="carousel-indicators">
-            </div>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -92,77 +89,85 @@
               <img src="Newsletter2.JPG" class="d-block w-100" alt="Picture of group">
             </div>
           </div>
-          <h1>
-              <center>Continuing the tradition of 1849</center>
-            </h1>
-            <p>
-              <center>Welcome to the official website of Red Brick Communications, a public relations firm in Waynesburg, Pa. As a group of innovative communicators, we aim to provide public relations insight and counsel for your organization to take your marketing efforts to the next level.</center>
-            </p>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h1>
+          <center>Continuing the tradition of 1849</center>
+        </h1>
+        <p>
+          <h5><center>Welcome to the official website of Red Brick Communications, a public relations firm in Waynesburg, Pa. As a group of innovative communicators, we aim to provide public relations insight and counsel for your organization to take your marketing efforts to the next level.</center></h5>
+          <p>
+            <center><img src="photo-3.JPG"></center>
+          </p>
+          <h5>
+            <center>Learn all about our organization and the clients that our staff and members are a part of. We are proud to be partnered with the Greene County Historical Society and Greene County Tourism. You can learn more about our clients by clicking the linked buttons under each organizations description!</center>
+          </h5>
+          <h5>
+            
+          </h5>
+
+        </p>   
+      </div>
+      
+      <div class="col-3">
+        <center><h3>Clients:</h3></center>
+        <div class="card">
+          <img src="logo-1.png" class="card-img-top" alt="GCHS">
+
+          <div class="card-body">
+            <h5 class="card-title">Greene County Historical Society</h5>
+            <p class="card-text">The Greene County Historical Society Museum is located in the Former Greene County Home, also known as an Almshouse or Poor Farm. The Greene County Home Opened in 1862 and Operated for a little over a century seeing well over 6000 residents or “inmates” during its years of operation.</p>
+            <a href="https://greenecountyhistory.org" class="btn btn-primary">Keep History Alive</a>
+          </div>
+        </div>
+
+        <div class="card" aria-hidden="true">
+          <img src="logo-2.jpeg" class="card-img-top" alt="GCT">
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">Greene County Tourism</h5>
+            <p class="card-text">From rolling farmland in the summer to snow-covered hills in the winter, from breathtaking vistas in the spring to stunning foliage in the fall, Greene County has it all.</p>
+            <a href="https://visitgreene.org" class="btn btn-primary">Visit Greene</a>
+          </div>
         </div>
       </div>
- 
+    </div>
+  </div>
+</div>
+</div>
 
-  <div class="col-3">
-    <center><h3>Clients:</h3></center>
-    <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <h3>Greene County Historical Society</h3>
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>The Greene County Historical Society represents every citizen of Greene County and its surrounding areas. Our responsibility is to preserve the wonderful stories of our forefathers and maintain the artifacts of our shared history to educate generations to come. Keeping up with this philosophy, we have a variety of historical and cultural events that celebrate the common culture and heritage of our communities throughout the summer and autumn that are open to all.
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        <h3>Greene County Tourism</h3>
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>The tourism office of Greene County provides information about the county in response to requests from visitors and potential visitors. The agency's responsibilities include offering membership benefits and services as well as acting as a general resource for the community at large.
+      <div class="modal-body">
+        You will now recieve daily updates!
       </div>
-    </div>
-  </div>
-      </button>
-    </h2>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
 
-
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          You will now recieve daily updates!
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <div class="p-3 mb-2 bg-dark text-light p-5 mt-3 mb-3 rounded-3">
-      <div class="row align-items-start">
+  <div class="row align-items-start">
     <div class="col">
-        <center><p class="h7">Red Brick Communications <br> redbrickcommunication1849@gmail.com </p></center>
+      <center><p class="h7">Red Brick Communications <br> redbrickcommunication1849@gmail.com </p></center>
     </div>
     <div class="col">
       <center><p class="h7">Waynesburg University <br> 51 West College Street <br> Waynesburg, PA 15370 </p></center>
     </div>
-    </div>
+  </div>
 </body>
 </html>
